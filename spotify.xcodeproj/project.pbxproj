@@ -14,6 +14,9 @@
 		C2F7CA9E2925E03700BFA2AE /* spotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7CA9D2925E03700BFA2AE /* spotifyTests.swift */; };
 		C2F7CAA82925E03700BFA2AE /* spotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7CAA72925E03700BFA2AE /* spotifyUITests.swift */; };
 		C2F7CAAA2925E03700BFA2AE /* spotifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7CAA92925E03700BFA2AE /* spotifyUITestsLaunchTests.swift */; };
+		C2F7CAB92925E31700BFA2AE /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7CAB82925E31700BFA2AE /* AlbumModel.swift */; };
+		C2F7CABB2925E61D00BFA2AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7CABA2925E61D00BFA2AE /* HomeView.swift */; };
+		C2F7CABD2926661700BFA2AE /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7CABC2926661700BFA2AE /* OffsetModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		C2F7CAA32925E03700BFA2AE /* spotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F7CAA72925E03700BFA2AE /* spotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyUITests.swift; sourceTree = "<group>"; };
 		C2F7CAA92925E03700BFA2AE /* spotifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C2F7CAB82925E31700BFA2AE /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		C2F7CABA2925E61D00BFA2AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C2F7CABC2926661700BFA2AE /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		C2F7CA8B2925E03500BFA2AE /* spotify */ = {
 			isa = PBXGroup;
 			children = (
+				C2F7CAB72925E0A800BFA2AE /* Model */,
+				C2F7CAB62925E0A300BFA2AE /* View */,
 				C2F7CA8C2925E03500BFA2AE /* spotifyApp.swift */,
 				C2F7CA8E2925E03500BFA2AE /* ContentView.swift */,
 				C2F7CA902925E03600BFA2AE /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				C2F7CAA92925E03700BFA2AE /* spotifyUITestsLaunchTests.swift */,
 			);
 			path = spotifyUITests;
+			sourceTree = "<group>";
+		};
+		C2F7CAB62925E0A300BFA2AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2F7CABA2925E61D00BFA2AE /* HomeView.swift */,
+				C2F7CABC2926661700BFA2AE /* OffsetModifier.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2F7CAB72925E0A800BFA2AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2F7CAB82925E31700BFA2AE /* AlbumModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F7CA8F2925E03500BFA2AE /* ContentView.swift in Sources */,
+				C2F7CABB2925E61D00BFA2AE /* HomeView.swift in Sources */,
+				C2F7CABD2926661700BFA2AE /* OffsetModifier.swift in Sources */,
+				C2F7CAB92925E31700BFA2AE /* AlbumModel.swift in Sources */,
 				C2F7CA8D2925E03500BFA2AE /* spotifyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
